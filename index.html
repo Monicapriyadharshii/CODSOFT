@@ -1,41 +1,59 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title>MPD Collections</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <div style="text-align: center; background-color: aqua; ">
-        <img src="bg.png"width="500px" height="300px">
-        </div>
-        <h1 style="text-align: center; ">MPD Collections</h1>
-       <link rel="stylesheet" href="style.css">
-    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <h1 style="text-align: center; ">Welcome to MPD Collections</h1>
-        <br>
-    <div>
-    <a href="index.html" style="margin-left: 300px;">Home</a>   <a href="women.html">Women</a>   <a href="men.html">Men</a>   <a href="kids.html">Kids</a>   
-    <br>
-    <br>
-</div>
-    <section style="text-align: center; align-items: center;">
-        <h2>Sign Up Now!</h2>
-        <p>Don't miss out offers on your favourite shopping sites.</p>
-        <a href="form.html">Sign Up</a>
-    </section>
-    <footer style="text-align: center; background-color: aqua;">
-        <h2>Contact us </h2>
-        <h4><img src="insta.png" width="30px" height="30px"><a>SR_Groups</a><br></h4>
-        <h4><img src="face book.png"width="30px" height="30px"><a>SR_Groups</a><br></h4>
-        <h4><img src="linkedin.png" width="30px" height="30px"><a>SR_Groups</a><br></h4>
-        
-        <p>&copy; SR groups. All rights reserved.</p>
-    </footer>
-</body>
+        <header>
+            <img src="developer.png"width="250px" height="250px" style="margin-right:5%;margin-left: 10%;">
+            <h1 style="text-align: center;">Monica Priyadharshini R</h1><br>
+            <link rel="stylesheet" href="styles.css">
+            <meta name="viewport" content="width=devicewidth, initial-scale=1"><br>
+            <br> 
+           </header>
+           <br><div style="text-align: center;"><button style="margin-left:100px;" onclick="scrollToSection('About')" >About</button>   <button  onclick="scrollToSection('Skills')" >Skills</button>     <button  onclick="scrollToSection('Projects')" >Projects</button>   <button onclick="scrollToSection('Contact')" >Contact</button></div><br>
+           <script>
+            function scrollToSection(sectionId) {
+                const section = document.getElementById(sectionId);
+                section.scrollIntoView({ behavior: 'smooth' });
+            }
+        </script>
+           <section id="About">
+            <h5 style="text-align: center; font-size: 20px;"><h1>Greetings from Monica &#x1F607;I'm a dedicated computer science student with a passion for problem-solving and innovation. My academic journey has equipped me with a strong foundation in theoretical concepts and practical applications. I thrive in challenging environments and actively engage in collaborative projects and extracurricular activities. With a relentless drive for learning and a commitment to making a positive impact through technology, I'm excited to contribute to the future of computing.</h5>
+
+        </section>
+        <section id="Skills">
+            <h1 style="font-size: 50px;">SKILLS</h1>
+            <img src="html-5.png" width="150px" height="150px">     <img src="css-3.png" width="150px" height="150px">  <img src="science.png" width="150px" height="150px"> <img src="java-script.png" width="150px" height="150px">  <img src="java.png" width="150px" height="150px">   <img src="python.png" width="150px" height="150px">
+        </section>
+        <section id="Projects">
+            <h1 style="font-size: 50px;">PROJECTS</h1>
+            <section id="Links" style="margin-left: 30%;">
+          
+                <img src="cal.png"width="100px" height="100px"><a href="https://65f6de1fd3f04478dceb9857--deft-kheer-dcdde9.netlify.app/" target="_blank">Calculator</a><br>
+                    <br>
+                <img src="web.png" width="100px" height="100px" style="margin-left: 20px;"><a href="https://65f6dc8ca4d5657e776a2df5--glistening-basbousa-ee8a70.netlify.app/">Landing Page</a><br>
+                    <br>
+               </section>
+        </section>
+        <section id="Contact">
+           
+            <h2 style="font-size: 30px; text-align: center;">Contact Me  &#x1F44D; and Have a look at my profiles on other sites &#x1F60A;</h2></ul><br>
+         
+        </section>
+        <section id="Links" style="margin-left: 30%;">
+          
+            <img src="gmail.png"width="80px" height="80px"> <a href="mailto:monicapriyadharshini1205@gmail.com" target="_blank">MAIL</a><br>
+                <br>
+            <img src="github.png" width="80px" height="80px" style="margin-left: 20px;"><a href="https://github.com/Monicapriyadharshii">GitHub</a><br>
+                <br>
+            <img src="linkedin.png" width="80px" height="80px" style="margin-left: 20px;"><a href="https://www.linkedin.com/in/monica-priyadharshini-92bb40216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin</a><br>
+        </section>
+            <footer style="text-align: center;">
+            
+        <p  style="font-size: 20px; text-align: center;">&copy;MONICA PRIYADHARSHINI R. All rights reserved.</p></ul><br>
+        </footer> 
+    
+    </body>
 </html>
-
-
-
-
-
- 
